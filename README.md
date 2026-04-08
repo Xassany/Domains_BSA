@@ -1,166 +1,196 @@
-BSA Projects Overview
-
-Что внутри:
-Проект 1: Онлайн-запись в барбершоп Включает пользовательские сценарии (Use Cases), диаграммы "плавательные дорожки" (Swimlane), CRUD-операции, статусные модели и роли.
-
-Проект 2: Доставка заказов Анализ бизнес-процессов, участие ролей, описание жизненного цикла данных.
-
-Репозиторий содержит учебные проекты по Business/System Analysis.
-Каждый проект посвящён отдельному этапу анализа и включает соответствующие артефакты.
-
-BSA00 — Introduction to System Analysis
-
-Выполнено:
-
-Анализ жизненного цикла разработки ИТ-систем
-
-Определение ролей в команде
-
-Сбор и классификация источников информации
-
-Глоссарий
-
-Правила именования и хранения артефактов
-
-Декомпозиция требований
-
-Артефакты:
-Glossary, documentation rules, decomposition materials
-
-BSA01 — Stakeholders Analysis
-
-Выполнено:
-
-Определение заинтересованных сторон
-
-Роли стейкхолдеров
-
-Реестр стейкхолдеров
-
-Onion Diagram
-
-Артефакты:
-Stakeholder list, Onion Diagram
-
-BSA02 — Requirements Fundamentals
-
-Выполнено:
-
-Определение и классификация требований
-
-Уровни требований
-
-As-Is / To-Be анализ
-
-Context Diagram
-
-Артефакты:
-Requirements documentation, As-Is / To-Be models, Context Diagram
-
-BSA03 — Requirements Elicitation
-
-Выполнено:
-
-Методы выявления требований
-
-Описание бизнес-требований
-
-Роли в проекте и их функции
-
-Артефакты:
-Business requirements description, role model
-
-BSA04 — Data Modeling
-
-Выполнено:
-
-Object Domain
-
-Определение сущностей
-
-CRUD-матрица
-
-Data Dictionary
-
-ERD
-
-Артефакты:
-ERD, Data Dictionary, CRUD Matrix
-
-BSA05 — Requirements Modeling
-
-Выполнено:
-
-Data Flow Diagram (DFD)
-
-Swim Lane Diagram
-
-State Transition Diagram
-
-Артефакты:
-DFD, Swim Lane Diagram, State Diagram
-
-Tools
-
-Использовались Microsoft Office и его аналоги
-(LibreOffice, Google Docs/Sheets, diagrams.net).
-
-BSA06 — Business Process Modeling
-
-Выполнено:
-
-Подготовка и актуализация артефактов из предыдущих этапов анализа
-
-Выделение основных бизнес-процессов
-
-Определение владельцев бизнес-процессов
-
-Обсуждение и согласование бизнес-процессов
-
-Описание основных бизнес-процессов в структурированном виде
-
-Построение BPMN-диаграмм
-
-Ревизия диаграмм и проверка их согласованности с другими артефактами
-
-Артефакты: Business process list, discussion reports, business process description table, BPMN diagrams, artifacts comparison and revision materials
-
-BSA07 — User Stories
-
-Выполнено:
-
-Определение потребностей пользователей системы
-
-Описание User Story для разных ролей
-
-Формулировка пользовательской ценности и ожидаемых действий
-
-Разработка критериев приёмки
-
-Подготовка тестовых сценариев
-
-Согласование пользовательских историй
-
-Проверка US по критериям 3C и INVEST
-
-Артефакты: User Stories, acceptance criteria, test scenarios, user stories coordination protocol
-
-BSA08 — Use Cases
-
-Выполнено:
-
-Описание вариантов использования системы
-
-Определение основного действующего лица и заинтересованных сторон
-
-Фиксация цели, предусловий, триггеров и постусловий
-
-Описание основных и альтернативных потоков
-
-Моделирование связей include и extend
-
-Проработка сценариев взаимодействия разных ролей с системой
-
-Детализация use case flows для ключевых сценариев
-
-Артефакты: Use Case descriptions, use case flows, include/extend models, structured interaction scenarios
+# BSA Projects Overview
+
+This repository contains a set of training projects in **Business Analysis** and **System Analysis**.  
+Each project covers a specific stage of the analysis process and includes the related artifacts created during the work.
+
+The projects are based on practical case studies such as **Online Barbershop Booking** and **Order Delivery**, with a focus on requirements analysis, process modeling, data modeling, and interaction design.
+
+---
+
+## Projects Included
+
+### 1. Online Barbershop Booking
+A system for managing online appointment scheduling in a barbershop network.
+
+Key analysis areas:
+- Use Cases
+- Swimlane diagrams
+- CRUD operations
+- State models
+- Roles and permissions
+- User Stories
+- Business processes
+
+### 2. Order Delivery
+A delivery service system designed to support order intake, courier assignment, delivery tracking, and data exchange with accounting.
+
+Key analysis areas:
+- Business process analysis
+- Stakeholder interaction
+- Role-based workflows
+- Data lifecycle modeling
+- Use Cases
+- User Stories
+
+---
+
+## Course Modules
+
+### BSA00 — Introduction to System Analysis
+**Completed:**
+- IT system development lifecycle analysis
+- Team role definition
+- Information source collection and classification
+- Glossary creation
+- Artifact naming and storage rules
+- Requirements decomposition
+
+**Artifacts:**
+- Glossary
+- Documentation rules
+- Decomposition materials
+
+---
+
+### BSA01 — Stakeholders Analysis
+**Completed:**
+- Stakeholder identification
+- Stakeholder role definition
+- Stakeholder register creation
+- Onion Diagram development
+
+**Artifacts:**
+- Stakeholder list
+- Onion Diagram
+
+---
+
+### BSA02 — Requirements Fundamentals
+**Completed:**
+- Requirements definition and classification
+- Requirement level identification
+- As-Is / To-Be analysis
+- Context Diagram development
+
+**Artifacts:**
+- Requirements documentation
+- As-Is / To-Be models
+- Context Diagram
+
+---
+
+### BSA03 — Requirements Elicitation
+**Completed:**
+- Requirements elicitation methods
+- Business requirements description
+- Project role definition and role functions
+
+**Artifacts:**
+- Business requirements description
+- Role model
+
+---
+
+### BSA04 — Data Modeling
+**Completed:**
+- Object Domain modeling
+- Entity identification
+- CRUD Matrix creation
+- Data Dictionary creation
+- ERD development
+
+**Artifacts:**
+- ERD
+- Data Dictionary
+- CRUD Matrix
+
+---
+
+### BSA05 — Requirements Modeling
+**Completed:**
+- Data Flow Diagram (DFD)
+- Swim Lane Diagram
+- State Transition Diagram
+
+**Artifacts:**
+- DFD
+- Swim Lane Diagram
+- State Diagram
+
+---
+
+### BSA06 — Business Process Modeling
+**Completed:**
+- Preparation and updating of artifacts from previous analysis stages
+- Identification of core business processes
+- Definition of business process owners
+- Business process discussion and alignment
+- Structured description of core business processes
+- BPMN diagram development
+- Diagram revision and consistency validation across artifacts
+
+**Artifacts:**
+- Business process list
+- Discussion reports
+- Business process description table
+- BPMN diagrams
+- Artifacts comparison and revision materials
+
+---
+
+### BSA07 — User Stories
+**Completed:**
+- Identification of user needs
+- User Story development for different roles
+- Definition of user value and expected actions
+- Acceptance criteria development
+- Test scenario preparation
+- User Story alignment
+- Validation using 3C and INVEST criteria
+
+**Artifacts:**
+- User Stories
+- Acceptance criteria
+- Test scenarios
+- User Story coordination materials
+
+---
+
+### BSA08 — Use Cases
+**Completed:**
+- Use Case description
+- Identification of the primary actor and stakeholders
+- Definition of goals, preconditions, triggers, and postconditions
+- Description of main and alternative flows
+- Modeling of include and extend relationships
+- Interaction scenario elaboration for different roles
+- Detailed Use Case flow development for key scenarios
+
+**Artifacts:**
+- Use Case descriptions
+- Use Case flows
+- Include/extend models
+- Structured interaction scenarios
+
+---
+
+## Tools Used
+- Microsoft Office
+- LibreOffice
+- Google Docs / Google Sheets
+- diagrams.net
+
+---
+
+## Skills Demonstrated
+- Business Analysis
+- System Analysis
+- Requirements Engineering
+- Stakeholder Analysis
+- Business Process Modeling (BPMN)
+- Data Modeling
+- Use Case Modeling
+- User Story Writing
+- Acceptance Criteria Definition
+- Test Scenario Design
+- Documentation Structuring
